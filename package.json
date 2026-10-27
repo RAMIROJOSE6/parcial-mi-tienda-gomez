@@ -1,0 +1,35 @@
+{
+  "name": "mi-tienda",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "drizzle-orm": "^0.45.4",
+    "expo": "~58.0.19",
+    "expo-constants": "~58.0.13",
+    "expo-crypto": "~58.0.7",
+    "expo-linking": "~58.0.14",
+    "expo-router": "~58.0.26",
+    "expo-secure-store": "~58.0.2",
+    "expo-sqlite": "~58.0.14",
+    "expo-status-bar": "~58.0.4",
+    "react": "19.3.0",
+    "react-native": "0.88.0",
+    "react-native-safe-area-context": "~5.10.1",
+    "react-native-screens": "~4.30.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.3.0",
+    "babel-plugin-inline-import": "^3.0.0",
+    "babel-preset-expo": "^58.0.20",
+    "drizzle-kit": "^0.31.11",
+    "typescript": "~6.0.3"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "private": true
+}
